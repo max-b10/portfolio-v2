@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+   background-color:#2e3842;
+   color:white;
+   font-size: 100%;
+}
+
+/* Mobile hamburger menu */
+@keyframes reveal {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+.toggle{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url('/images/whitemenu.png');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  top: 0;
+  right:0;
+  z-index: 1;
+  animation: reveal 2s ease-in-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@media(min-width:769px){
+.toggle{
+  display: none;
+}
+}
+.hello{
+  background-color: blue;
+}
+
+/* Main Banner */
+.banner-container .background-video{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .9;
+  z-index: -1;
+}
+.banner-container{
+  position: relative;
+  height: 65vh;
+}
+.banner{
+    position: absolute;
+    left: 0;
+	  right: 0;
+	  top: 20%;
+	  margin-left: auto;
+ 	  margin-right: auto;
+    max-width: 66vw;
+    animation: reveal 2s ease-in-out;
+    animation-fill-mode: forwards;
+    background-color: rgb(16 16 16 / 85%);
+    color: #fff;
+    display: inline-block;
+    opacity: 0;
+    padding: 1.1rem;
+    text-align: center;
+    z-index: 1;
+    font-size: 1.1rem;
+}
+.banner-top{
+  display: inline-block;
+  padding: .15rem 0;
+  margin-bottom: 1rem;
+}
+#name{
+  padding: .5rem 0;
+}
+.banner-top, #name{
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+.info{
+  margin-bottom: .5rem;
+}
+#skills{
+  display: inline-block;
+  font-size: .7rem;
+  border-top: solid 1px;
+  padding-top: .5rem;
+}
+.contact-button{
+    background-color: transparent;
+    border: solid 1px;
+    border-radius: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    padding: 0.1rem 2rem;
+    margin: 1rem 1rem;
+    line-height: 1.5rem;
+}
+
+/*Projects Section */
+
+
+.projects-header-image::before, .projects-header-image:after {
+    content: '';
+	  display: inline-block;
+    vertical-align: middle;
+	  top: 50%;
+	  width: 35%;
+	  border-top: solid 1px white;
+}
+.projects-header-image::before{
+    left: 0;
+    margin-right: 10px;
+}
+.projects-header-image:after{
+    right: 0;
+    margin-left: 10px;
+}
+#mb-icon{
+  transform: translateY(.2rem);
+  width: 1rem;
+}
+.projects-header-image, .projects-header-text{
+  margin: 0 auto;
+  padding: .8rem 0 0rem 0;
+  max-width: 66vw;
+  text-align: center;
+  line-height: 1.7rem;
+}
+#down-arrow{
+  width: 1rem;
+  margin-top: 1rem;
+}
+
+/* Individual Projects and Rows  */
+.row{
+  margin-top: 2rem;
+  /* height: 100vh; */
+
+}
+.project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:0;
+  padding: 0 2.5rem;
+  /* border-top: solid 2px white; */
+}
+.project-left{
+  background-color:rgb(232, 232, 232);
+  color: black;
+  /* border-bottom: solid 2px #2e3842; */
+}
+.project-header{
+  margin: .1rem 0;
+  padding: 2rem 0 1rem 0;
+  text-decoration: underline;
+}
+/* Project images */
+.image-container{
+    margin: 0 auto;
+}
+#flappy-bird, #snake, #breakout, #calculator, #hangman, #todo-list, #score-keeper, #profile-card, #text-to-speech, #ctcm{
+    padding: 1px;
+    margin: 0 auto;
+    border: solid 1px  #8a8a8a;
+    max-width: 66vw;
+}
+@media(min-width:426px){
+ #flappy-bird, #snake, #breakout, #calculator, #hangman, #todo-list, #score-keeper, #profile-card, #text-to-speech, #ctcm{
+    width: 90%;
+}   
+}
+.p-container{
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  line-height: 2.5;
+  text-align: justify;
+  max-width: 70vw;
+}
+.button-container{
+  display: flex;
+  padding: 1rem;
+}
+.button{
+    border: solid 1px;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    padding: 0.1rem .5rem;
+    margin: .5rem .5rem;
+    line-height: 1.5rem;
+    background-color: transparent;
+}
+.button-left{
+    color: black;
+}
+.button-right{
+    color: white;
+}
+/* Web Speech API a tag */
+a.web-speech{
+  color: white;
+}
