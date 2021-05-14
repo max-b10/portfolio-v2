@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPortfolioV2</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="/images/favicons/MBfavicon.png" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="toggle"></div>
+      </header>
+
+      <div class="banner-container">
+        <video
+          class="background-video"
+          src="/videos/fire.mp4"
+          poster="/images/firebackground.jpg"
+          autoplay
+          muted
+          loop
+        ></video>
+        <div class="banner">
+          <div class="banner-top">
+            <h2 id="name">MAX BUNGAY</h2>
+          </div>
+          <div class="banner-bottom">
+            <h5 class="info">Front End Developer</h5>
+            <p id="skills">HTML | CSS | JavaScript</p>
+            <!-- <p class="info">
+            I am a front end developer with a collection of projects including
+            retro games, JavaScript classics, responsive web design and more...
+          </p> -->
+            <div class="banner-button">
+              <button class="contact-button">CONTACT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projects-container">
+        <div class="projects-header-container">
+          <div class="projects-header-image">
+            <img id="mb-icon" src="/images/MBicon.png" alt="MB favicon" />
+          </div>
+          <div class="projects-header-text">
+            <h4>
+              JavaScript Classics, Retro Games, Responsive Web Design and
+              more...
+            </h4>
+            <div id="down-arrow-container">
+              <img id="down-arrow" src="/images/arrow.png"></img>
+            </div>
+          </div>
+        </div>
+        <div class="row row-one">
+          <div class="project project-left">
+            <div class="project-header">
+              <h4 id="flappy-bird-header">Flappy Bird</h4>
+            </div>
+
+            <div class="image-container">
+              <img
+                id="flappy-bird"
+                src="/images/Project Covers/flappy-bird.png"
+                alt="flappy bird Gif"
+              />
+            </div>
+            <div class="p-container">
+              <p>
+                A recreation of the infamously addictive mobile game: Flappy
+                Bird using HTML, CSS and vanilla JavaScript.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="button button-left" id="flappy-bird-play-button">
+                Play Game
+              </button>
+              <button class="button button-left" id="flappy-bird-code-button">
+                View Code
+              </button>
+            </div>
+          </div>
+
+          <div class="project project-right">
+            <div class="project-header">
+              <h4 id="tts-header">Text to Speech App</h4>
+            </div>
+
+            <div class="image-container">
+              <img
+                id="text-to-speech"
+                src="/images/Project Covers/TTS.PNG"
+                alt="tts Gif"
+              />
+            </div>
+            <div class="p-container">
+              <p>
+                Styled with Bootstrap, this app uses the
+                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API" class="web-speech" >Web Speech API</a>
+                to turn user's text into a voice of their choice from the
+                dropdown menu provided.
+              </p>
+            </div>
+
+            <div class="button-container">
+              <button class="button button-right" id="tts-play-button">View App</button>
+              <button class="button button-right" id="tts-code-button">View Code</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="contact">contact</div> -->
+    </main>
+  </body>
+</html>
