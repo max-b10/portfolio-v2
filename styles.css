@@ -147,11 +147,9 @@ body{
 }
 
 /* Individual Projects and Rows  */
-.row{
+/* .row{
   margin-top: 2rem;
-  /* height: 100vh; */
-
-}
+} */
 .project{
   display: flex;
   flex-direction: column;
@@ -161,12 +159,13 @@ body{
   /* border-top: solid 2px white; */
 }
 .project-left{
-  background-color:rgb(232, 232, 232);
+  background-color: #ededed;
+  /* background-color:rgb(232, 232, 232); */
   color: black;
   /* border-bottom: solid 2px #2e3842; */
 }
 .project-header{
-  margin: .1rem 0;
+  margin: .1rem auto;
   padding: 2rem 0 1rem 0;
   text-decoration: underline;
 }
@@ -178,7 +177,7 @@ body{
     padding: 1px;
     margin: 0 auto;
     border: solid 1px  #8a8a8a;
-    max-width: 66vw;
+    max-width: 60vw;
 }
 @media(min-width:426px){
  #flappy-bird, #snake, #breakout, #calculator, #hangman, #todo-list, #score-keeper, #profile-card, #text-to-speech, #ctcm{
@@ -188,9 +187,9 @@ body{
 .p-container{
   padding: 1rem 1rem;
   font-size: 1rem;
-  line-height: 2.5;
+  line-height: 2rem;
   text-align: justify;
-  max-width: 70vw;
+  max-width: 65vw;
 }
 .button-container{
   display: flex;
@@ -205,8 +204,9 @@ body{
     letter-spacing: 2px;
     padding: 0.1rem .5rem;
     margin: .5rem .5rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
     background-color: transparent;
+    font-weight: 900;
 }
 .button-left{
     color: black;
@@ -214,7 +214,11 @@ body{
 .button-right{
     color: white;
 }
-/* Web Speech API a tag */
-a.web-speech{
+/* Dark href tags */
+a.dark-href{
   color: white;
+}
+/* Light href tags */
+a.light-href{
+  color: black;
 }
