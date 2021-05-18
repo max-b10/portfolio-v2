@@ -1,68 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyPortfolioV2</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/styles.css" />
-    <link rel="icon" href="/images/favicons/MBfavicon.png" />
-  </head>
-  <body>
-    <main>
-            <div class="banner-container">
-        <video
-          class="background-video"
-          src="/videos/fire.mp4"
-          poster="/images/firebackground.jpg"
-          autoplay
-          muted
-          loop
-        ></video>
-        <div class="banner">
-          <div class="banner-top">
-            <h2 id="name">MAX BUNGAY</h2>
-          </div>
-          <div class="banner-bottom">
-            <h5 class="info">Front End Developer</h5>
-            <p id="skills">HTML | CSS | JavaScript</p>
-            <div class="banner-button">
-              <button class="contact-button">CONTACT</button>
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyPortfolioV2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/images/favicons/MBfavicon.png" />
+</head>
+
+<body>
+  <main>
+    <div class="banner-container">
+      <video class="background-video" src="/videos/fire.mp4" poster="/images/firebackground.jpg" autoplay muted
+        loop></video>
+      <div class="banner">
+        <div class="banner-top">
+          <h2 id="name">MAX BUNGAY</h2>
+        </div>
+        <div class="banner-bottom">
+          <h5 class="info">Front End Developer</h5>
+          <p id="skills">HTML | CSS | JavaScript</p>
+          <div class="banner-button">
+            <button class="contact-button">CONTACT</button>
           </div>
         </div>
       </div>
-      <div class="projects-container">
-        <div class="projects-header-container">
-          <div class="projects-header-image">
-            <img id="mb-icon" src="/images/MBicon.png" alt="MB favicon" />
-          </div>
-          <div class="projects-header-text">
-            <h4>
-              JavaScript Classics, Retro Games, Responsive Web Design and
-              more...
-            </h4>
-            <div id="down-arrow-container">
-              <img id="down-arrow" src="/images/arrow.png"></img>
-            </div>
+    </div>
+    <div class="projects-container">
+      <div class="projects-header-container">
+        <div class="projects-header-image">
+          <img id="mb-icon" src="/images/MBicon.png" alt="MB favicon" />
+        </div>
+        <div class="projects-header-text">
+          <h4>
+            JavaScript Classics, Retro Games, Responsive Web Design and
+            more...
+          </h4>
+          <div id="down-arrow-container">
+            <img id="down-arrow" src="/images/arrow.png"></img>
           </div>
         </div>
-        <div class="row row-one">
-          <div class="project project-left">
-            <div class="project-header">
-              <h3 id="flappy-bird-header">Flappy Bird</h3>
-            </div>
-            <div class="image-container">
-              <img
-                id="flappy-bird"
-                src="/images/Project Covers/flappy-bird.png"
-                alt="flappy bird Gif"
-              />
-            </div>
+      </div>
+      <div class="project project-left">
+        <div class="content-container">
+          <div class="project-header">
+            <h3 id="flappy-bird-header">Flappy Bird</h3>
+          </div>
+          <div class="image-container">
+            <img id="flappy-bird" src="/images/Project Covers/flappy-bird.png" alt="flappy bird Gif" />
+          </div>
+          <div class="sub-content-container">
             <div class="p-container">
               <p>
                 A recreation of the infamously addictive mobile game: Flappy
@@ -78,21 +68,22 @@
               </button>
             </div>
           </div>
-          <div class="project project-right">
-            <div class="project-header">
-              <h3 id="tts-header">Text to Speech App</h3>
-            </div>
-            <div class="image-container">
-              <img
-                id="text-to-speech"
-                src="/images/Project Covers/TTS.PNG"
-                alt="tts Gif"
-              />
-            </div>
+        </div>
+      </div>
+      <div class="project project-right">
+        <div class="content-container">
+          <div class="project-header">
+            <h3 id="tts-header">Text to Speech App</h3>
+          </div>
+          <div class="image-container">
+            <img id="text-to-speech" src="/images/Project Covers/TTS.PNG" alt="tts Gif" />
+          </div>
+          <div class="sub-content-container">
             <div class="p-container">
               <p>
                 Styled with Bootstrap, this app uses the
-                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API" class="dark-href" >Web Speech API</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API" class="dark-href">Web Speech
+                  API</a>
                 to turn user's text into a voice of their choice from the
                 dropdown menu provided.
               </p>
@@ -103,173 +94,166 @@
             </div>
           </div>
         </div>
-        <div class="row row-two">
-        <div class="project project-left">
+      </div>
+      <div class="project project-left">
+        <div class="content-container">
           <div class="project-header">
-          <h3 id="snake-header">Snake</h3>
+            <h3 id="snake-header">Snake</h3>
           </div>
           <div class="image-container">
-            <img
-              id="snake"
-              src="/images/Project Covers/snake.png"
-              alt="snake Gif"
-            />
+            <img id="snake" src="/images/Project Covers/snake.png" alt="snake Gif" />
           </div>
-          <div class="p-container">
-            <p>
-              A Nokia style Snake game using HTML, CSS and vanilla JavaScript,
-              with arrow-keys included for mobile users.
-            </p>
-          </div>
-          <div class="button-container">
-            <button class="button button-left" id="snake-play-button">Play Game</button>
-            <button class="button button-left" id="snake-code-button">View Code</button>
+          <div class="sub-content-container">
+            <div class="p-container">
+              <p>
+                A Nokia style Snake game using HTML, CSS and vanilla JavaScript,
+                with arrow-keys included for mobile users.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="button button-left" id="snake-play-button">Play Game</button>
+              <button class="button button-left" id="snake-code-button">View Code</button>
+            </div>
           </div>
         </div>
-        <div class="project project-right">
-          <div class="project-header" >
-            <h3  id="calculator-header">Calculator</h3>
+      </div>
+      <div class="project project-right">
+        <div class="content-container">
+          <div class="project-header">
+            <h3 id="calculator-header">Calculator</h3>
           </div>
           <div class="image-container">
-            <img
-              id="calculator"
-              src="/images/Project Covers/calculator.png"
-              alt="calculator Gif"
-            />
+            <img id="calculator" src="/images/Project Covers/calculator.png" alt="calculator Gif" />
           </div>
-          <div class="p-container">
-            <p>
-              A JavaScript Calculator served as a useful project to help me
-              learn vanilla JavaScript fundamentals and CSS Grid.
-            </p>
-          </div>
-          <div class="button-container">
-            <button class="button button-right" id="calculator-play-button">View App</button>
-            <button class="button button-right" id="calculator-code-button">
-              View Code
-            </button>
+          <div class="sub-content-container">
+            <div class="p-container">
+              <p>
+                A JavaScript Calculator served as a useful project to help me
+                learn vanilla JavaScript fundamentals and CSS Grid.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="button button-right" id="calculator-play-button">View App</button>
+              <button class="button button-right" id="calculator-code-button">
+                View Code
+              </button>
+            </div>
           </div>
         </div>
-        </div>
-      <div class="row row-three">
-        <div class="project project-left">
+      </div>
+      <div class="project project-left">
+        <div class="content-container">
           <div class="project-header">
             <h4 id="ctcm-header">Compare the Crypto Market</h4>
           </div>
-        <div class="image-container">
-            <img
-              id="ctcm"
-              src="/images/Project Covers/ctcm.png"
-              alt="ctcm Gif"
-            />
-          </div>
-          <div class="p-container">
-            <p>
-              Using Axios to access the
-              <a href="https://www.coingecko.com/en" class="light-href">Coin Gecko</a> API, this
-              app displays the realtime prices and information of
-              cryptocurrencies. Another project I styled using Bootstrap.
-            </p>
-          </div>
-          <div class="button-container">
-            <button class="button button-left" id="ctcm-play-button">View App</button>
-            <button class="button button-left" id="ctcm-code-button">View Code</button>
-          </div>
-        </div>
-        <div class="project project-right">
-          <div class="project-header">
-          <h3 id="todo-list-header">Todo-List App</h3>
-          </div>
           <div class="image-container">
-            <img
-              id="todo-list"
-              src="/images/Project Covers/todo-list.png"
-              alt="todo-list Gif"
-            />
+            <img id="ctcm" src="/images/Project Covers/ctcm.png" alt="ctcm Gif" />
           </div>
-          <div class="p-container">
-            <p>
-              The most clichéd of all JavaScript projects, I found this to be a
-              brilliant learning resource from Andrew Mead's JavaScript course
-              on
-              <a href="https://www.udemy.com/course/modern-javascript/" class="dark-href"
-                >Udemy.com</a
-              >.
-            </p>
-          </div>
-          <div class="button-container">
-            <button class="button button-right" id="todo-list-play-button">View App</button>
-            <button class="button button-right" id="todo-list-code-button">View Code</button>
+          <div class="sub-content-container">
+            <div class="p-container">
+              <p>
+                Using Axios to access the
+                <a href="https://www.coingecko.com/en" class="light-href">Coin Gecko</a> API, this
+                app displays the realtime prices and information of
+                cryptocurrencies. Another project I styled using Bootstrap.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="button button-left" id="ctcm-play-button">View App</button>
+              <button class="button button-left" id="ctcm-code-button">View Code</button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row row-four">
-        <div class="project project-left">
+      <div class="project project-right">
+        <div class="content-container">
           <div class="project-header">
-          <h3  id="breakout-header">Breakout</h3>
+            <h3 id="todo-list-header">Todo-List App</h3>
           </div>
           <div class="image-container">
-            <img
-              id="breakout"
-              src="/images/Project Covers/breakout.png"
-              alt="breakout Gif"
-            />
+            <img id="todo-list" src="/images/Project Covers/todo-list.png" alt="todo-list Gif" />
           </div>
-          <div class="p-container">
-            <p>
-              A recreation of the classic game: Breakout using HTML, CSS and
-              vanilla JavaScript. Right and Left arrow-keys included for mobile
-              users.
-            </p>
-          </div>
-          <div class="button-container">
-            <button class="button button-left" id="breakout-play-button">Play Game</button>
-            <button class="button button-left" id="breakout-code-button">View Code</button>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-header">
-          <h3  id="hangman-header">Hangman</h3>
-          </div>
-          <div class="image-container">
-            <img
-              id="hangman"
-              src="/images/Project Covers/hangman.png"
-              alt="hangman Gif"
-            />
-          </div>
-          <div class="p-container">
-            <p>
-              A very useful learning project I completed during Andrew Mead's
-              JavaScript course on
-              <a href="https://www.udemy.com/course/modern-javascript/" class="dark-href"
-                >Udemy.com</a
-              >. Not supported on touch screen devices...yet!
-            </p>
-          </div>
-          <div class="button-container">
-            <button class="button button-right" id="hangman-play-button">Play Game</button>
-            <button class="button button-right" id="hangman-code-button">View Code</button>
+          <div class="sub-content-container">
+            <div class="p-container">
+              <p>
+                The most clichéd of all JavaScript projects, I found this to be a
+                brilliant learning resource from Andrew Mead's JavaScript course
+                on
+                <a href="https://www.udemy.com/course/modern-javascript/" class="dark-href">Udemy.com</a>.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="button button-right" id="todo-list-play-button">View App</button>
+              <button class="button button-right" id="todo-list-code-button">View Code</button>
+            </div>
           </div>
         </div>
       </div>
-      </div>
-      <div class="projects-header-image">
-          <img id="mb-icon" src="/images/MBicon.png" alt="MB favicon" />
-     </div>
-     <div class="contact">
-       <div class="contact-header">
-         <h3>CONTACT</h3>
+      <div class="project project-left">
+        <div class="content-container">
+          <div class="project-header">
+            <h3 id="breakout-header">Breakout</h3>
+          </div>
+          <div class="image-container">
+            <img id="breakout" src="/images/Project Covers/breakout.png" alt="breakout Gif" />
+          </div>
+          <div class="sub-content-container">
+            <div class="p-container">
+              <p>
+                A recreation of the classic game: Breakout using HTML, CSS and
+                vanilla JavaScript. Right and Left arrow-keys included for mobile
+                users.
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="button button-left" id="breakout-play-button">Play Game</button>
+              <button class="button button-left" id="breakout-code-button">View Code</button>
+            </div>
+          </div>
         </div>
-        <div class="contact-icons">
+      </div>
+      <div class="project project-right">
+        <div class="content-container">
+          <div class="project-header">
+            <h3 id="hangman-header">Hangman</h3>
+          </div>
+          <div class="image-container">
+            <img id="hangman" src="/images/Project Covers/hangman.png" alt="hangman Gif" />
+          </div>
+          <div class="sub-content-container">
+            <div class="p-container">
+              <p>
+                A very useful learning project I completed during Andrew Mead's
+                JavaScript course on
+                <a href="https://www.udemy.com/course/modern-javascript/" class="dark-href">Udemy.com</a>. Not supported
+                on touch screen devices...yet!
+              </p>
+            </div>
+            <div class="button-container">
+              <button class="button button-right" id="hangman-play-button">Play Game</button>
+              <button class="button button-right" id="hangman-code-button">View Code</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects-header-image">
+      <img id="mb-icon" src="/images/MBicon.png" alt="MB favicon" />
+    </div>
+    <div class="contact">
+      <div class="contact-header">
+        <h3>CONTACT</h3>
+      </div>
+      <div class="contact-icons">
         <img class="icon" src="/images/icons/GitHub32px.png" alt="github icon">
-         <img class="icon" src="/images/icons/linkedin.png" alt="linkedin icon">
-         <img class="icon" src="/images/icons/email-14-32.png" alt="email icon">
-         <img class="icon" src="/images/icons/phone-30-32.png" alt="phone icon">
-         <img class="icon" src="/images/icons/pdf-32.png" alt="pdf icon">
+        <img class="icon" src="/images/icons/linkedin.png" alt="linkedin icon">
+        <img class="icon" src="/images/icons/email-14-32.png" alt="email icon">
+        <img class="icon" src="/images/icons/phone-30-32.png" alt="phone icon">
+        <img class="icon" src="/images/icons/pdf-32.png" alt="pdf icon">
       </div>
-      </div>
-    </main>
-    <script src="/app.js"></script>
-  </body>
+    </div>
+  </main>
+  <script src="/app.js"></script>
+</body>
+
 </html>
