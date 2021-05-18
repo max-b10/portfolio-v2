@@ -126,7 +126,8 @@ body{
   /* width: 100vw; */
 }
 .projects-header-container{
-  border-top: solid 1px #565656;
+  border-top: solid 1px #ffffff;
+  /* background-color: #1d242a; */
   background-color: #1d242a;
   height: 20vh;
 }
@@ -153,14 +154,18 @@ body{
 .projects-header-text{
   margin: 0 auto;
   text-align: center;
-  max-width: 66vw;
-  line-height: 1.5rem;
+  /* max-width: 80vw; */
+  /* line-height: 1.5rem; */
+  padding: 2rem 0;
+  /* background-color: #2e3842; */
+  /* background-color: rgb(42 53 64); */
 }
 .projects-header-image{
   margin: 0 auto;
-  padding: .5rem 0 1rem 0;
-  max-width: 66vw;
+  padding: 1.5rem 0 1rem 0;
+  max-width: 100vw;
   text-align: center;
+  background-color: #1d242a;
 }
 #down-arrow{
   width: 1rem;
@@ -181,7 +186,7 @@ body{
   margin: 0;
   padding: 0;
   border-top: none;
-  width: 100vw;
+  border-top: solid 1px rgb(61, 61, 61);
 }
 }
 .project-left{
@@ -222,7 +227,7 @@ body{
   display: flex;
   flex-direction: row;
   padding: 0;
-  min-width: 100%;
+  max-width: 80%;
   align-items: center;
 }
 }
@@ -252,23 +257,16 @@ body{
 }
 @media(min-width:500px){
 .image-container{
-  width: 30%;
   display: inline-block;
   position: relative;
+  padding: 1rem;
 }
 }
 @media(min-width:500px){
 #flappy-bird, #snake, #breakout, #calculator, #hangman, #todo-list, #score-keeper, #profile-card, #text-to-speech, #ctcm{
   display: block;
-  width: 100%;
   max-width: 100%;
-  margin: 1rem;
 }
-}
-@media(min-width:500px){
-  .sub-content-container{
-    width:55%;
-  }
 }
 @media(min-width:500px){
  .project-right> .content-container> .sub-content-container{
@@ -341,15 +339,13 @@ a.light-href{
 }
 /* Contact */
 .contact{
-  background-color:#303030; 
+  background-color:#1d242a; 
   text-align: center;
   padding: 0 0 1rem 0;
   letter-spacing: 2px;
 }
 .contact-header{
-  padding: 2rem 0 2rem 0;
-  border-top: solid 1px #565656;
-  text-decoration: underline;
+  padding: 1rem 0 2rem 0;
 }
 .contact-icons{
   padding: 0 0 1rem 0;
