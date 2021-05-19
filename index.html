@@ -21,26 +21,35 @@
         </div> -->
         <div class="contact-icons">
           <img
+            id="github-icon"
             class="icon"
             src="/images/icons/GitHub32px.png"
             alt="github icon"
           />
           <img
+            id="linkedin-icon"
             class="icon"
             src="/images/icons/linkedin.png"
             alt="linkedin icon"
           />
           <img
+            id="email-icon"
             class="icon"
             src="/images/icons/email-14-32.png"
             alt="email icon"
           />
           <img
+            id="phone-icon"
             class="icon"
             src="/images/icons/phone-30-32.png"
             alt="phone icon"
           />
-          <img class="icon" src="/images/icons/pdf-32.png" alt="pdf icon" />
+          <img
+            id="pdf-icon"
+            class="icon"
+            src="/images/icons/pdf-32.png"
+            alt="pdf icon"
+          />
         </div>
       </div>
       <div class="banner-container">
@@ -60,7 +69,9 @@
             <h5 class="info">Front End Developer</h5>
             <p id="skills">HTML | CSS | JavaScript</p>
             <div class="banner-button">
-              <button class="contact-button">My Projects</button>
+              <a href="#projects-header-image" class="contact-button">
+                My Projects</a
+              >
             </div>
           </div>
         </div>
@@ -69,9 +80,11 @@
         <div class="projects-header-container">
           <!-- <div class="projects-header-text"> -->
           <!-- <h1>MY PROJECTS</h1> -->
-          <div class="projects-header-image">
+
+          <div id="projects-header-image" class="projects-header-image">
             <img id="mb-icon" src="/images/MBicon.png" alt="MB favicon" />
           </div>
+
           <!-- <h4>
             JavaScript Classics, Retro Games, Responsive Web Design and
             more...
@@ -83,8 +96,10 @@
         </div>
         <div class="project project-left">
           <div class="content-container">
-            <div class="project-header">
-              <h3 id="flappy-bird-header">Flappy Bird</h3>
+            <div id="projects-nav" class="project-header">
+              <h3 id="flappy-bird-header" name="flappy-bird-header">
+                Flappy Bird
+              </h3>
             </div>
             <div class="image-container">
               <img
