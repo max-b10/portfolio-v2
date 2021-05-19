@@ -1,4 +1,4 @@
-// Buttons Variables:
+// Buttons:
 const flappyBirdPlayButton = document.querySelector("#flappy-bird-play-button");
 const flappyBirdCodeButton = document.querySelector("#flappy-bird-code-button");
 const snakePlayButton = document.querySelector("#snake-play-button");
@@ -11,24 +11,19 @@ const hangmanPlayButton = document.querySelector("#hangman-play-button");
 const hangmanCodeButton = document.querySelector("#hangman-code-button");
 const todoListPlayButton = document.querySelector("#todo-list-play-button");
 const todoListCodeButton = document.querySelector("#todo-list-code-button");
-const scoreKeeperPlayButton = document.querySelector(
-  "#score-keeper-play-button"
-);
-const scoreKeeperCodeButton = document.querySelector(
-  "#score-keeper-code-button"
-);
 const ctcmPlayButton = document.querySelector("#ctcm-play-button");
 const ctcmCodeButton = document.querySelector("#ctcm-code-button");
-const profileCardPlayButton = document.querySelector(
-  "#profile-card-play-button"
-);
-const profileCardCodeButton = document.querySelector(
-  "#profile-card-code-button"
-);
 const ttsPlayButton = document.querySelector("#tts-play-button");
 const ttsCodeButton = document.querySelector("#tts-code-button");
 
-// Button links
+//  Contact icons:
+const githubIcon = document.querySelector("#github-icon");
+const linkedinIcon = document.querySelector("#linkedin-icon");
+const emailIcon = document.querySelector("#email-icon");
+const phoneIcon = document.querySelector("#phone-icon");
+const pdfIcon = document.querySelector("#pdf-icon");
+
+// Project button links
 // Flappy Bird
 flappyBirdPlayButton.addEventListener("click", () => {
   window.open("https://flappy-bird-max-b10.netlify.app/");
@@ -91,4 +86,12 @@ ttsPlayButton.addEventListener("click", () => {
 });
 ttsCodeButton.addEventListener("click", () => {
   window.open("https://github.com/max-b10/Text-To-Speech");
+});
+
+//  Contact icon links:
+githubIcon.addEventListener("click", () => {
+  window.open("https://github.com/max-b10");
+});
+linkedinIcon.addEventListener("click", () => {
+  window.open("https://linkedin.com/in/max-bungay");
 });
