@@ -53,7 +53,11 @@ main{
   padding: 1rem 0 .5rem 0;
   margin: 0 auto;
 }
-
+@media(min-width:769px){
+.contact-icons{
+  max-width: 50vw;
+}
+}
 @media(min-width:500px){
 .icon:hover{
   transform: scale(1.1);
@@ -63,12 +67,11 @@ main{
 #email-content, #phone-content, #pdf-content{
   display: none;
 }
-.email-content:hover #email-content{
+@media(min-width:769px){
+  .email-content:hover #email-content{
   display: block;
   position: absolute;
   top: 101%;
-  /* left: 40%; */
-  /* right: 5%; */
   background-color: #1d242a;
   padding: .5rem;
   z-index: 5;
@@ -92,6 +95,8 @@ main{
   z-index: 5;
   width: fit-content;
 }
+}
+
 /* Main Banner */
 .banner-container .background-video{
   display: block;
@@ -179,8 +184,11 @@ main{
   background-color: #1d242a;
 }
 .projects-header-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 15vh;
-  text-align: center;
+  /* text-align: center; */
   background-color: #1d242a;
   padding: 2rem 0;
 }
@@ -201,7 +209,6 @@ main{
     margin-left: 10px;
 }
 #mb-icon{
-  transform: translateY(.2rem);
   width: 1rem;
 }
 
