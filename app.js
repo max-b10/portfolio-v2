@@ -95,3 +95,6 @@ githubIcon.addEventListener("click", () => {
 linkedinIcon.addEventListener("click", () => {
   window.open("https://linkedin.com/in/max-bungay");
 });
+pdfIcon.addEventListener("click", () => {
+  window.open("/CV Max Bungay 2021.pdf");
+});
