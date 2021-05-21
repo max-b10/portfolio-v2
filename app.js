@@ -15,6 +15,12 @@ const ctcmPlayButton = document.querySelector("#ctcm-play-button");
 const ctcmCodeButton = document.querySelector("#ctcm-code-button");
 const ttsPlayButton = document.querySelector("#tts-play-button");
 const ttsCodeButton = document.querySelector("#tts-code-button");
+const portfoliov1PlayButton = document.querySelector(
+  "#portfoliov1-play-button"
+);
+const portfoliov1CodeButton = document.querySelector(
+  "#portfoliov1-code-button"
+);
 
 //  Contact icons:
 const githubIcon = document.querySelector("#github-icon");
@@ -88,8 +94,16 @@ ttsCodeButton.addEventListener("click", () => {
   window.open("https://github.com/max-b10/Text-To-Speech");
 });
 
+// Portfolio V1
+portfoliov1PlayButton.addEventListener("click", () => {
+  window.open("https://portfoliov1-max-b10.netlify.app/");
+});
+portfoliov1CodeButton.addEventListener("click", () => {
+  window.open("https://github.com/max-b10/MyPortfolio");
+});
+
 //  Contact icon links:
-githubIcon.addEventListener("click", () => {
+https: githubIcon.addEventListener("click", () => {
   window.open("https://github.com/max-b10");
 });
 linkedinIcon.addEventListener("click", () => {
