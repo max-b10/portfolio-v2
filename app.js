@@ -15,6 +15,8 @@ const ctcmPlayButton = document.querySelector("#ctcm-play-button");
 const ctcmCodeButton = document.querySelector("#ctcm-code-button");
 const ttsPlayButton = document.querySelector("#tts-play-button");
 const ttsCodeButton = document.querySelector("#tts-code-button");
+const dadJokePlayButton = document.querySelector("#djg-play-button");
+const dadJokeCodeButton = document.querySelector("#djg-code-button");
 const portfoliov1PlayButton = document.querySelector(
   "#portfoliov1-play-button"
 );
@@ -94,6 +96,14 @@ ttsCodeButton.addEventListener("click", () => {
   window.open("https://github.com/max-b10/Text-To-Speech");
 });
 
+// Dad Joke Generator
+dadJokePlayButton.addEventListener("click", () => {
+  window.open("https://djg-max-b10.netlify.app/");
+});
+dadJokeCodeButton.addEventListener("click", () => {
+  window.open("https://github.com/max-b10/Dad-joke-generator");
+});
+
 // Portfolio V1
 portfoliov1PlayButton.addEventListener("click", () => {
   window.open("https://portfoliov1-max-b10.netlify.app/");
@@ -103,7 +113,7 @@ portfoliov1CodeButton.addEventListener("click", () => {
 });
 
 //  Contact icon links:
-https: githubIcon.addEventListener("click", () => {
+githubIcon.addEventListener("click", () => {
   window.open("https://github.com/max-b10");
 });
 linkedinIcon.addEventListener("click", () => {
