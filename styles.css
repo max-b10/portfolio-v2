@@ -34,7 +34,6 @@ main{
 		}
 	}
 
-
 .contact{
   position: absolute;
   z-index: 10;
@@ -312,7 +311,7 @@ main{
 @media(min-width:500px){
 #flappy-bird, #snake, #breakout, #calculator, #hangman, #todo-list, #score-keeper, #profile-card, #text-to-speech, #ctcm{
   display: block;
-  max-width: 70%;
+  max-width: 60%;
   margin: 0 auto;
 }
 }
