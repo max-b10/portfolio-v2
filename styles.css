@@ -223,13 +223,22 @@ main {
   padding: 0 1.5rem;
   border-top: solid 1px black;
   max-width: 100;
+  .profile {
+    display: flex;
+    justify-content: center;
+  }
 }
+
 @media (min-width: 500px) {
   .project {
     margin: 0 auto;
     padding: 2rem 0;
     border-top: none;
     border-top: solid 1px rgb(61, 61, 61);
+  }
+  .profile {
+    display: flex;
+    justify-content: center;
   }
 }
 .project-left {
@@ -256,6 +265,7 @@ main {
 /* Responsive from columns to rows */
 .content-container {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -263,6 +273,7 @@ main {
 @media (min-width: 500px) {
   .content-container {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     padding: 0;
     max-width: 80%;
@@ -275,6 +286,31 @@ main {
     flex-direction: row;
     padding: 0;
     max-width: 50%;
+    align-items: center;
+  }
+}
+.profile-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 500px) {
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+  }
+}
+@media (min-width: 1440px) {
+  .profile-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    max-width: 60%;
     align-items: center;
   }
 }

@@ -105,12 +105,12 @@ dadJokeCodeButton.addEventListener("click", () => {
 });
 
 // Portfolio V1
-portfoliov1PlayButton.addEventListener("click", () => {
-  window.open("https://portfoliov1-max-b10.netlify.app/");
-});
-portfoliov1CodeButton.addEventListener("click", () => {
-  window.open("https://github.com/max-b10/MyPortfolio");
-});
+// portfoliov1PlayButton.addEventListener("click", () => {
+//   window.open("https://portfoliov1-max-b10.netlify.app/");
+// });
+// portfoliov1CodeButton.addEventListener("click", () => {
+//   window.open("https://github.com/max-b10/MyPortfolio");
+// });
 
 //  Contact icon links:
 githubIcon.addEventListener("click", () => {
